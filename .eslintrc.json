@@ -38,6 +38,10 @@
         {
           "props": false
         }
-      ]
+      ],
+      "linebreak-style": 0,
+      "comma-dangle": [2, "never"],
+      "arrow-parens": ["error", "as-needed"],
+      "object-curly-newline": ["error", "never"]
     }
 }
