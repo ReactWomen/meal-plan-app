@@ -4,10 +4,22 @@ import './App.css';
 import Button from './components/Button/Button';
 
 function App() {
+  const alert = () => {
+    console.log("testinggggggg")
+  }
   return (
     <div className="App">
       <header className="App-header">
-        <Button></Button>
+        <Button
+          text="Botonaco"
+          onClick={alert}
+          className="boton1"
+        />
+        <Button
+          text="botonaco 2"
+          onClick={alert}
+          className="boton2"
+        />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit
